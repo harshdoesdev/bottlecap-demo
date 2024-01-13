@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "--base=/bottlecap-demo/",
+    "build": "vite build --base=/bottlecap-demo/",
     "preview": "vite preview"
   },
   "devDependencies": {
