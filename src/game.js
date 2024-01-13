@@ -37,9 +37,9 @@ class MyGame extends Bottlecap.Game {
     this.loader.on('error', this.onLoadingError.bind(this));
 
     this.loader
-      .addImage('coin', '/coin.png')
-      .addImage('playerSprite', '/player.png')
-      .addSound('coinpickup', '/coin-pickup.wav')
+      .addImage('coin', './coin.png')
+      .addImage('playerSprite', './player.png')
+      .addSound('coinpickup', './coin-pickup.wav')
       .load();
   }
 
