@@ -78,7 +78,7 @@ class MyGame extends Bottlecap.Game {
       if (coin.visible && this.checkCoinCollision(coin)) {
         coin.visible = false;
         this.score += 10;
-        Bottlecap.Sound.play(null, this.assets.sound.coinpickup);
+        Bottlecap.Sound.play(this.assets.sound.coinpickup);
       }
       coin.update(dt);
     });

@@ -12,6 +12,6 @@
     "vite": "^5.0.8"
   },
   "dependencies": {
-    "bottlecap": "^1.0.7"
+    "bottlecap": "^1.0.8"
   }
 }
