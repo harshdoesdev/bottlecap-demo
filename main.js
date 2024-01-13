@@ -1,6 +1,6 @@
-import * as Bottlecap from 'bottlecap';
-
 import './style.css'
+
+import * as Bottlecap from 'bottlecap';
 
 class Player {
   constructor(ctx, assets) {
